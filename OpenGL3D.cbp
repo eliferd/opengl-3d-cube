@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenGL3D" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/OpenGL3D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/CodeBlocksLibs/GLFW/include" />
+			<Add directory="C:/CodeBlocksLibs/glad/include" />
+			<Add directory="C:/CodeBlocksLibs/cglm/include/cglm" />
+		</Compiler>
+		<Linker>
+			<Add option="C:/CodeBlocksLibs/glad/include/glad.c -lglfw3" />
+			<Add library="C:/CodeBlocksLibs/GLFW/lib/libglfw3.a" />
+			<Add library="C:/CodeBlocksLibs/GLFW/lib/libglfw3dll.a" />
+			<Add directory="C:/CodeBlocksLibs/GLFW/lib" />
+		</Linker>
+		<Unit filename="camera.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera.h" />
+		<Unit filename="fragment.glsl" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="shader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shader.h" />
+		<Unit filename="vertex.glsl" />
+		<Unit filename="window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="window.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
