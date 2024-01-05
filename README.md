@@ -17,3 +17,6 @@ In project's Build Options
 ![image](https://github.com/eliferd/opengl-3d-cube/assets/1537036/b6ac6c33-f878-4638-ba2a-5dfb0910a2dd)
 
 ![image](https://github.com/eliferd/opengl-3d-cube/assets/1537036/e4e885c7-eb5b-42bd-881f-15a979b63645)
+
+## When running
+Press 'D' to toggle wireframes
