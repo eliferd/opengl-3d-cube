@@ -4,9 +4,9 @@ This is a simple 3D OpenGL application with just a cube that you can move around
 I used Code::Blocks IDE for this project.
 
 ## Libraries
-- GLFW
-- GLAD
-- CGLM
+- [GLFW](https://www.glfw.org/)
+- [GLAD](https://glad.dav1d.de/)
+- [CGLM](https://cglm.readthedocs.io/en/latest/)
 
 ## To build this project
 ### With Code::Blocks
